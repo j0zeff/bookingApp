@@ -1,0 +1,66 @@
+[
+  {
+    "id": "H1",
+    "name": "Hotel California",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room"
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room"
+      }
+    ],
+    "rooms": [
+      {
+        "roomType": "SGL",
+        "roomId": "101"
+      },
+      {
+        "roomType": "SGL",
+        "roomId": "102"
+      },
+      {
+        "roomType": "DBL",
+        "roomId": "201"
+      },
+      {
+        "roomType": "DBL",
+        "roomId": "202"
+      }
+    ]
+  },
+  {
+    "id": "H2",
+    "name": "Grand Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room"
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room"
+      },
+      {
+        "code": "TPL",
+        "description": "Triple Room"
+      }
+    ],
+    "rooms": [
+      {
+        "roomType": "SGL",
+        "roomId": "301"
+      },
+      {
+        "roomType": "DBL",
+        "roomId": "302"
+      },
+      {
+        "roomType": "TPL",
+        "roomId": "303"
+      }
+    ]
+  }
+]
