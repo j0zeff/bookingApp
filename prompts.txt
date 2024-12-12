@@ -1,0 +1,68 @@
+hotels.json
+[
+  {
+    "id": "H1",
+    "name": "Hotel California",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room"
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room"
+      }
+    ],
+    "rooms": [
+      {
+        "roomType": "SGL",
+        "roomId": "101"
+      },
+      {
+        "roomType": "SGL",
+        "roomId": "102"
+      },
+      {
+        "roomType": "DBL",
+        "roomId": "201"
+      },
+      {
+        "roomType": "DBL",
+        "roomId": "202"
+      }
+    ]
+  }
+]
+
+booking.json
+[
+  {
+    "hotelId": "H1",
+    "arrival": "20240901",
+    "departure": "20240903",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H1",
+    "arrival": "20240902",
+    "departure": "20240905",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  }
+]
+
+
+generate more data with this example
+
+------------------------------------------------------
+
+how to parse date from string?
+
+------------------------------------------------------
+
+i uploaded my project to git repository, but my folder "Release", where i published my project and where all the .dlls and exe are, doesnt uploaded to git, why? 
+
+
+
+  
